@@ -5,6 +5,7 @@
     <classes>
       <class name="automation.framework.test.LoginTest">
         <methods>
+<<<<<<< HEAD
           <include name="verifyValidLogin"/>
           <include name="setupReport"/>
           <include name="verifyLoginDP" invocation-numbers="0 1"/>
@@ -12,6 +13,11 @@
           <include name="tearDown"/>
           <include name="tearDownReport"/>
           <include name="setUpPage"/>
+=======
+          <include name="verifyLoginDP" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+>>>>>>> 8cfbd888dc8a88bc914d1d18b1b2d9d8a57e1a62
         </methods>
       </class> <!-- automation.framework.test.LoginTest -->
     </classes>
