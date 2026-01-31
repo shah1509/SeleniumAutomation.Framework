@@ -1,1 +1,28 @@
-/target/
+# Maven
+target/
+
+# Logs
+logs/
+
+# Reports
+reports/
+test-output/
+
+# Screenshots
+screenshots/
+
+# Class files
+*.class
+
+# Extent Reports
+ExtentReport_*.html
+
+# OS / IDE
+.idea/
+.project
+.classpath
+.settings/
+
+# Excel temp copies
+*~$
+*.tmp
