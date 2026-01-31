@@ -23,14 +23,14 @@ pipeline {
         stage('Clean & Compile') {
             steps {
                 echo 'Cleaning and compiling the project'
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Run Selenium TestNG Tests') {
             steps {
                 echo 'Executing TestNG test suite'
-                sh 'mvn test -DsuiteXmlFile=testng.xml -Dbrowser=${BROWSER} -Denv=${ENV}'
+                bat 'mvn test -DsuiteXmlFile=testng.xml -Dbrowser=${BROWSER} -Denv=${ENV}'
             }
         }
     }
